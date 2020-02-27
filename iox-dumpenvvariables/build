@@ -1,3 +1,0 @@
-docker build -t iox-dumpenvvariables .
-ioxclient docker package iox-dumpenvvariables .
-mv package.tar iox-dumpenvvariables-aarch64.tar
