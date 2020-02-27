@@ -1,0 +1,18 @@
+descriptor-schema-version: "2.2"
+
+info:
+  name: "iox_docker_showenv_aarch64"
+  description: "test for configuration parameters"
+  version: "1.0"
+  author-link: "http://www.cisco.com"
+  author-name: "Jens Depuydt"
+
+app:
+  cpuarch: "aarch64"
+  type: docker
+  resources:
+    profile: c1.tiny
+
+  startup:
+    rootfs: rootfs.tar
+    target: ["python","/test.py"]
