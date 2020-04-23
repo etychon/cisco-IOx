@@ -21,7 +21,12 @@ Showcase how to generate third-party signed IOx applications, and how to make yo
 
 ## For Cisco IE1101 and IE3400 (ARM based):
 
-* [iox-dumpenvvariables-aarch64](https://github.com/etychon/iox-dumpenvvariables-aarch64) 
+* [iox-aarch64-hello-world](https://github.com/etychon/iox-aarch64-hello-world)
+Compact IOx application build on a small rootfs with a C-compiled "hello world" example that generate logs. Pefect to get started or as a sample IOx application to test IOx.
+
+* [iox-dumpenvvariables-aarch64](https://github.com/etychon/iox-dumpenvvariables-aarch64)
+Cisco IOx application dealing with bootstapping and environment variables, more specifically to demonstrate the use of package_config.ini to configure additional parameters (such as a key, or a URL) from the IOx Management application. 
+
 
 * [iox-ir1101-modbustcp-br-py](https://github.com/etychon/iox-ir1101-modbustcp-br-py)
 Cisco IOx application example to use Modbus TCP on a Cisco IR1101 with Python, this example uses a B&R PLC but it can serve as a starting point to build anything with Python on the top of a compact Alpine linux image.
