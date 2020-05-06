@@ -25,19 +25,22 @@ Showcase how to generate third-party signed IOx applications, and how to make yo
 Compact IOx application build on a small rootfs with a C-compiled "hello world" example that generate logs. Pefect to get started or as a sample IOx application to test IOx.
 
 * [iox-dumpenvvariables-aarch64](https://github.com/etychon/iox-dumpenvvariables-aarch64)
-Cisco IOx application dealing with bootstapping and environment variables, more specifically to demonstrate the use of package_config.ini to configure additional parameters (such as a key, or a URL) from the IOx Management application. 
+Cisco IOx application dealing with bootstapping and environment variables, more specifically to demonstrate the use of package_config.ini to configure additional parameters (such as a key, or a URL) from the IOx Management application.
 
 
 * [iox-ir1101-modbustcp-br-py](https://github.com/etychon/iox-ir1101-modbustcp-br-py)
 Cisco IOx application example to use Modbus TCP on a Cisco IR1101 with Python, this example uses a B&R PLC but it can serve as a starting point to build anything with Python on the top of a compact Alpine linux image.
 
-* [iox-ir1101-dotnet-sample](https://github.com/etychon/iox-ir1101-dotnet-sample) 
+* [iox-ir1101-dotnet-sample](https://github.com/etychon/iox-ir1101-dotnet-sample)
 Sample IOx application based on Microsoft .NET Core SDK for ARM
 
 * [iox-ir1101-dio-read](https://github.com/etychon/iox-ir1101-dio-read)
 Read digital-IO (Alarm) port status on Cisco IR1101 using Cisco IOx with Python
 
+* [iox-ir1101-serial-port](https://github.com/etychon/iox-ir1101-serial-port)
+Sample code in Python to demonstrate how to use serial port (async0) in IOx from Cisco IR1101
+
 ## Multi-Architecture
 
 * [iox-multiarch-nginx-nyancat-sample](https://github.com/etychon/iox-multiarch-nginx-nyancat-sample)
-Show a way to build and package IOx applications for both x86 and ARM from the same Dockerfile. In this case this creates a webserver showing a running Nyan cat. 
+Show a way to build and package IOx applications for both x86 and ARM from the same Dockerfile. In this case this creates a webserver showing a running Nyan cat.
